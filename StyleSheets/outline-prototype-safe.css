@@ -87,3 +87,8 @@ div.LogoText {
 li.mainMenu {
     list-style-type: none; /* Убираем маркеры */
 }
+
+ul.mainMenu {
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
