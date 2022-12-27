@@ -1,0 +1,147 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #202020;
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #303030;
+    margin: 10px;
+    border-radius: 20px;
+    border: 2px solid darkred;
+}
+
+img.Logo {
+    float: left;
+    padding: 10px;
+}
+
+h1.LogoText{
+    color: red;
+    font-family: 'Roboto', sans-serif;
+}
+
+li.mainMenu {
+    list-style-type: none;
+    padding: 5px 0 5px 0;
+}
+
+.main {
+    flex: 1 1 auto;
+}
+
+.menu {
+    /*float: left;*/
+    /*width: 13%;*/
+    /*margin-top: 15px;*/
+    /*border-radius: 2px;*/
+    text-align: left;
+    overflow: auto;
+}
+
+.menu a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    background-color: #303030;
+    padding: 0 50px 0;
+    margin: 10px;
+    /*margin-top: auto;*/
+    border-radius: 20px;
+    color: darkred;
+    border: 2px solid darkred;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    /*flex-wrap: wrap;*/
+    padding: 7px;
+    margin: 10px;
+    border: 2px solid grey;
+    border-radius: 20px;
+}
+
+section {
+    display: flex;
+    padding: 7px;
+    margin: 10px;
+    border: 2px solid lightgray;
+    border-radius: 20px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    /*flex-wrap: wrap;*/
+    border-radius: 20px;
+    margin: 10px;
+    padding: 7px;
+}
+
+section.img {
+    display: flex;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 7px;
+}
+
+div.information {
+    padding: 5px;
+    margin: 5px;
+}
+
+ul.mainMenu {
+    margin-left: 50px; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+
+a {
+    color: darkred;
+    text-decoration: none;
+}
+
+span.textimg{
+    color: darkred;
+    background-color: black;
+}
+
+a.number {
+    color: red;
+}
+
+samp{
+    color: white;
+}
+
+@media screen and (max-device-width: 450px) {
+    .mainMenu{
+        font-size: 1.5em;
+    }
+
+    section.img {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mainfooter{
+        font-size: 1.5em;
+    }
+}
